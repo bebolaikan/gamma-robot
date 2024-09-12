@@ -15,8 +15,8 @@ radio.onReceivedNumber(function (receivedNumber) {
         motionbit.brakeMotor(MotionBitMotorChannel.All)
     }
 })
-radio.setGroup(1)
+radio.setGroup(99)
 radio.setTransmitPower(7)
 basic.forever(function () {
-    basic.showNumber(1)
+    basic.showNumber(99)
 })
